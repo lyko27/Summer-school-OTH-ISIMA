@@ -350,7 +350,7 @@ function graph_plot(
 
     edge_colors = [
         begin
-            key = is_directed(g) ? (src(e), dqst(e)) : minmax(src(e), dst(e))
+            key = is_directed(g) ? (src(e), dst(e)) : minmax(src(e), dst(e))
             key in path_edges ? colorant"red" : colorant"lightgray"
         end
         for e in E
@@ -688,7 +688,7 @@ function FetchFiles(NetName, ScenarioName,TmName)
     return load_network_json(NetName), JSON3.parsefile(ScenarioName), JSON3.parsefile(TmName)
 end
 
-network, scenario, tm = FetchFiles("/home/lyko/Dossier-perso/Summer-school-OTH-ISIMA/project/setA/setA-03-net.json","/home/lyko/Dossier-perso/Summer-school-OTH-ISIMA/project/setA/setA-03-scenario.json","/home/lyko/Dossier-perso/Summer-school-OTH-ISIMA/project/setA/setA-03-tm.json") 
+network, scenario, tm = FetchFiles("setA-03-net.json","setA-03-scenario.json","setA-03-tm.json") 
 
 ################   STEP 2 ########################
 
@@ -759,7 +759,7 @@ MaxSeg = scenario.max_segments              # maximum number of arcs for a short
 Budget = scenario.budget                    
 Interventions = scenario.interventions      # programmed interventions
 
-list_edge= JSON3.parsefile("/home/lyko/Dossier-perso/Summer-school-OTH-ISIMA/project/setA/setA-03-net.json").links
+list_edge= JSON3.parsefile("setA-03-net.json").links
 
 Num_time_Slots = tm.num_time_slots
 Demands = tm.demands
@@ -833,23 +833,4 @@ end
 
 
 ################   STEP 5: Model ########################
-
-################   STEP 6 : t=1 ########################
-
-C_1 = copy(C)                                 # matrix of the weight of arcs at t=1
-
-disabled_links = Interventions[1].links
-
-for a in list_edge
-    if a.id in disabled_links
-        u = network.json_to_vertex[Int(a.from)]
-        v = network.json_to_vertex[Int(a.to)]
-        C_1[u, v] = Inf
-        if !is_directed(network.graph)
-            C_1[v, u] = Inf
-        end
-    end
-end
-
-r_1 = compute_r_t(network.graph, C_1)
 
