@@ -1,0 +1,65 @@
+ID;Laufende Nummer des Standorts;Krankenhausstandort;Laufende Nummer des Krankenhauses;Krankenhaus / Tr�gerbereich;Stra�e;Hausnummer;PLZ;Ortsteil;nr_beds;avg_bed_occupancy;latitude;longitude
+1;1;St. Hedwig-Krankenhaus;1;Alexianer St. Hedwig-Kliniken Berlin;Gro�e Hamburger Stra�e;5 - 11;10115;Mitte;415;57,8;52,52623895;13,3975836
+2;2;Krankenhaus Hedwigsh�he;1;Alexianer St. Hedwig-Kliniken Berlin;H�hensteig;1;12526;Bohnsdorf;462;42,7;52,40609668;13,56919891
+3;3;Alexianer St. Joseph-Krankenhaus Berlin-Wei�ensee;2;Alexianer St. Joseph-Krankenhaus Berlin-Wei�ensee;Gartenstra�e;1;13088;Wei�ensee;361;58,2;52,55089305;13,46805177
+4;5;Arona Klinik f�r Altersmedizin;4;Arona Klinik f�r Altersmedizin;Blumberger Damm;2G;12683;Biesdorf;90;56;52,51589928;13,56375114
+5;6;Augenklinik Berlin-Marzahn;5;Augenklinik Berlin-Marzahn GmbH;Brebacher Weg;15;12683;Biesdorf;51;56;52,51405001;13,56885457
+6;7;Augenklinik im Ring-Center;6;Augenklinik im Ring-Center ;Frankfurter Allee;111;10247;Friedrichshain;15;60,7;52,5143914;13,4738877
+7;8;BG Klinikum Unfallkrankenhaus Berlin (UKB);7;BG Klinikum Unfallkrankenhaus Berlin gGmbH;Warener Stra�e;7;12683;Biesdorf;739;56;52,52007115;13,56657111
+8;9;Bundeswehrkrankenhaus (ziviler Bereich);8;Bundeswehrkrankenhaus Berlin;Scharnhorststra�e;13;10115;Mitte;302;57,8;52,53552645;13,37040167
+9;10;Caritas-Klinik Dominikus Berlin-Reinickendorf;9;Caritas-Klinik Dominikus Berlin-Reinickendorf;Kurhausstra�e;30;13467;Hermsdorf;253;52,3;52,62385903;13,2951777
+10;11;Caritas-Klinik Maria Heimsuchung Berlin-Pankow;10;Caritas-Klinik Maria Heimsuchung Berlin-Pankow;Breite Stra�e;46/47;13187;Pankow;245;58,2;52,47350864;13,29629043
+11;12;Campus Benjamin Franklin;11;Charit�;Hindenburgdamm;30;12203;Lichterfelde;878;41,6;52,44262709;13,32210048
+12;13;Campus Charit� Mitte;11;Charit�;Charit�platz;1;10117;Mitte;893;57,8;52,52374136;13,37834231
+13;14;Campus Virchow - Klinikum;11;Charit�;Augustenburger Platz;1;13353;Wedding;1294;57,8;52,5424651;13,3478684
+14;15;Count Down-Entgiftungseinrichtung des Drogentherapie Zentrums Berlin;12;Count Down-Entgiftungseinrichtung des Drogentherapie Zentrums Berlin;Frankfurter Allee;40;10247;Friedrichshain;12;60,7;52,51484018;13,46245595
+15;16;Deutsches Herzzentrum der Charit� DHZC am Campus Virchow - Klinikum;13;Charit�;Augustenburger Platz;1;13353;Wedding;196;57,8;52,5424651;13,3478684
+16;17;DRK Kliniken Berlin | K�penick;14;DRK Kliniken Berlin | K�penick;Salvador-Allende-Stra�e;2 - 8;12559;K�penick;534;42,7;52,44150091;13,5956018
+17;18;DRK Kliniken Berlin | Mitte;15;DRK Kliniken Berlin | Mitte;Drontheimer Stra�e;39 - 40;13359;Gesundbrunnen;260;57,8;52,55734401;13,37687305
+18;19;DRK Kliniken Berlin | Westend;16;DRK Kliniken Berlin | Westend;Spandauer Damm;130;14050;Westend;527;52,4;52,52041089;13,276996
+19;20;DRK Kliniken Berlin | Wiegmann Klinik  - Klinik f�r psychogene St�rungen;17;DRK Kliniken Berlin I Wiegmann Klinik  - Klinik f�r psychogene St�rungen;Spandauer Damm;130;14050;Westend;65;52,4;52,52041089;13,276996
+20;21;Evangelische Elisabeth Klinik;18;Evangelische Elisabeth Klinik;L�tzowstra�e;26;10785;Tiergarten;169;57,8;52,5036517;13,36511348
+21;22;Evangelisches Geriatriezentrum Berlin;19;Evangelisches Geriatriezentrum Berlin;Reinickendorfer Stra�e;61;13347;Gesundbrunnen;198;57,8;52,55487875;13,36563653
+22;23;Evangelisches Johannesstift Wichernkrankenhaus;20;Evangelisches Johannesstift Wichernkrankenhaus;Sch�nwalder Allee;26;13587;Hakenfelde;119;51,4;52,57067917;13,19536901
+23;24;Evangelisches Krankenhaus Hubertus;21;Evangelisches Krankenhaus Hubertus;Spanische Allee;10 - 14;14129;Schlachtensee;202;41,6;52,43100765;13,22126317
+24;25;Ev. Krankenhaus K�nigin Elisabeth Herzberge;22;Ev. Krankenhaus K�nigin Elisabeth Herzberge;Herzbergstra�e;79;10365;Lichtenberg;788;54,1;52,52643243;13,51131035
+25;26;Evangelische Lungenklinik Berlin;23;Evangelische Lungenklinik Berlin;Karower Stra�e;11;13125;Buch;152;58,2;52,58285448;13,4229031
+26;27;Evangelisches Waldkrankenhaus Spandau;24;Evangelisches Waldkrankenhaus Spandau;Stadtrandstra�e;555;13589;Falkenhagener Feld;524;51,4;52,56094965;13,15585125
+27;28;Franziskus Krankenhaus;25;St. Joseph Krankenhaus Berlin Tempelhof;Budapester Stra�e;15 - 19;10787;Tiergarten;185;57,8;52,50661322;13,34532742
+28;29;Friedrich von Bodelschwingh Klinik f�r Psychiatrie, Psychotherapie u. Psychosomatik;26;Friedrich von Bodelschwingh Klinik f�r Psychiatrie, Psychotherapie u. Psychosomatik;Landhausstra�e;33 -35;10717;Wilmersdorf;163;52,4;52,48986426;13,32898604
+29;30;Gemeinschaftskrankenhaus Havelh�he Klinik f�r Anthroposophische Medizin;27;Gemeinschaftskrankenhaus Havelh�he Klinik f�r Anthroposophische Medizin;Kladower Damm;221;14089;Kladow;402;51,4;52,46385964;13,163362
+30;31;Havelklinik;28;Havelklinik;Gatower Stra�e;191;13595;Wilhelmstadt;91;51,4;52,50287794;13,18000864
+31;32;Heiligenfeld Klinik Berlin;29;Heiligenfeld Klinik Berlin;Brebacher Weg;15;12683;Biesdorf;60;56;52,51411531;13,56886529
+32;33;HELIOS Klinikum Berlin-Buch;30;HELIOS Klinikum Berlin-Buch;Schwanebecker Chaussee;50;13125;Buch;1149;58,2;52,63197958;13,50957674
+33;34;HELIOS Klinikum Emil von Behring;31;HELIOS Klinikum Emil von Behring;Walterh�ferstra�e;11;14165;Zehlendorf;494;41,6;52,4217445;13,25458901
+34;35;Rheumaklinik Berlin-Wannsee und Zentrum f�r Naturheilkunde;32;Immanuel-Krankenhaus;K�nigstra�e;63;14109;Wannsee;290;41,6;52,41946451;13,16420807
+35;36;Rheumaklinik Berlin-Buch;32;Immanuel-Krankenhaus;Lindenberger Weg;19;13125;Buch;85;58,2;52,63303219;13,50351102
+36;37;J�disches Krankenhaus Berlin;33;J�disches Krankenhaus Berlin;Heinz-Galinski-Stra�e;1;13347;Gesundbrunnen;358;57,8;52,55556938;13,37058194
+37;38;Klinik f�r Minimal Invasive Chirurgie am Evangelischen Krankenhaus Hubertus;34;Klinik f�r Minimal Invasive Chirurgie am Evangelischen Krankenhaus Hubertus;Kurstra�e;11;14129;Schlachtensee;64;41,6;52,43114086;13,21848367
+38;39;"Klinik ""Helle Mitte""";35;"Klinik ""Helle Mitte""";Alice-Salomon-Platz;2;12627;Hellersdorf;24;56;52,53729354;13,60337781
+39;40;Klinik Sch�neberg;36;Klinik Sch�neberg;Fuggerstra�e;23;10777;Sch�neberg;52;59,7;52,49885688;13,34473054
+40;41;Kliniken im Theodor-Wenzel-Werk;37;Kliniken im Theodor-Wenzel-Werk;Potsdamer Chaussee;69;14129;Nikolassee;370;41,6;52,42323935;13,20583391
+41;42;Krankenhaus Bethel Berlin;38;Krankenhaus Bethel Berlin;Promenadenstra�e;3 -5;12207;Lichterfelde;276;41,6;52,43254388;13,32599927
+42;43;Krankenhaus Waldfriede;39;Krankenhaus Waldfriede;Argentinische Allee;40;14163;Zehlendorf;174;41,6;52,44453714;13,24030277
+43;44;Malteser-Krankenhaus;40;Malteser-Krankenhaus;Pillkaller Allee;1;14055;Westend;107;52,4;52,50905417;13,25177125
+44;45;Martin-Luther-Krankenhaus;41;Martin-Luther-Krankenhaus;Caspar-They�-Stra�e;27 - 31;14193;Grunewald;339;41,6;52,49070625;13,29091081
+45;46;MEDIAN Klinik Berlin-Kladow;42;MEDIAN Klinik Berlin-Kladow;Kladower Damm;223;14089;Kladow;226;51,4;52,46264801;13,16156071
+46;47;Park-Klinik Wei�ensee;43;Park-Klinik Wei�ensee;Sch�nstra�e;80;13086;Wei�ensee;358;58,2;52,55527933;13,45154647
+47;48;Paulinenkrankenhaus;44;Paulinenkrankenhaus gGmbH;Dickensweg;25 - 39;14055;Westend;148;52,4;52,50803906;13,23391434
+48;49;Sana Klinikum Lichtenberg;45;Sana Klinikum Lichtenberg;Fanningerstra�e;32;10365;Lichtenberg;672;54,1;52,51429124;13,49422592
+49;50;Schlosspark-Klinik;46;Schlosspark-Klinik;Heubnerweg;2;14059;Charlottenburg;362;52,4;52,52248366;13,28888854
+50;51;Sankt Gertrauden-Krankenhaus;47;Sankt Gertrauden-Krankenhaus;Paretzer Stra�e;12;10713;Wilmersdorf;384;52,4;52,48091105;13,31704837
+51;52;St. Joseph Krankenhaus Berlin Tempelhof;48;St. Joseph Krankenhaus Berlin Tempelhof;W�sthoffstra�e;15;12101;Tempelhof;680;59,7;52,47853773;13,37238871
+52;53;St. Marien-Krankenhaus Berlin;49;St. Marien-Krankenhaus Berlin;Gallwitzallee;123 - 143;12249;Lankwitz;274;41,6;52,42440567;13,3485152
+53;54;Vitanas Klinik f�r Geriatrie;50;Vitanas Klinik f�r Geriatrie;Senftenberger Ring;51;13435;M�rkisches Viertel;105;52,3;52,60366826;13,35932353
+54;55;Vivantes Ida Wolff Krankenhaus;51;Vivantes Ida Wolff Krankenhaus GmbH;Juchaczweg;21;12351;Buckow;148;45,8;52,43458149;13,45849027
+55;56;Vivantes - Klinikum im Friedrichshain;52;Vivantes - Klinikum im Friedrichshain;Landsberger Allee;49;10249;Friedrichshain;955;60,7;52,52469743;13,44071437
+56;52;Vivantes - Klinikum Am Urban;52;Vivantes - Klinikum Am Urban;Dieffenbachstra�e;1;10967;Kreuzberg;634;60,7;52,49475125;13,40898513
+57;58;Vivantes - Klinikum Kaulsdorf;52;Vivantes - Klinikum Kaulsdorf;Myslowitzer Stra�e;45;12621;Kaulsdorf;466;56;52,50757227;13,59212155
+58;59;Vivantes - Klinikum Neuk�lln;52;Vivantes - Klinikum Neuk�lln;Rudower Stra�e;48;12351;Buckow;1377;45,8;52,4379008;13,45967167
+59;60;Vivantes - Auguste-Viktoria-Klinikum;52;Vivantes - Auguste-Viktoria-Klinikum;Rubensstra�e;125;12157;Sch�neberg;667;59,7;52,46325478;13,34497734
+60;61;Vivantes - Wenckebach-Klinikum;52;Vivantes - Wenckebach-Klinikum;Wenckebachstra�e;23;12099;Tempelhof;288;59,7;52,45936003;13,38813863
+61;62;Vivantes - Humboldt-Klinikum;52;Vivantes - Humboldt-Klinikum;Am Nordgraben;2;13509;Wittenau;725;52,3;52,58995901;13,30932791
+62;63;Vivantes - Klinikum Spandau;52;Vivantes - Klinikum Spandau;Neue Bergstra�e;6;13585;Spandau;694;51,4;52,54960705;13,20723677
+63;64;Westklinik Dahlem;53;Westklinik Dahlem;Clayallee;225B;14195;Dahlem;30;41,6;52,44979234;13,26868168
+64;65;ALPIN - Gemeindepsychiatrische Tagesklinik;54;ALPIN - Gemeindepsychiatrische Tagesklinik gGmbH;Berliner Stra�e;13;13507;Tegel;0;52,3;52,58367989;13,28908464
