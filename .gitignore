@@ -1,0 +1,35 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit cache
+.streamlit/
+cache/
+*.cache
+
+# Jupyter / Pluto notebook checkpoints
+.ipynb_checkpoints
+.pluto.jl
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archives and temporaries
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+*backup*
