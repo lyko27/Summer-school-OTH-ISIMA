@@ -1,4 +1,4 @@
-# OTH Regensburg & ISIMA Summer School — Applied Optimization & Operations Research Suite
+# OTH Regensburg and ISIMA Summer School : Applied Optimization and Operations Research Suite
 
 ### A Bilateral Franco-German Academic Program in Mathematical Programming, Mixed-Integer Linear Programming (MILP), and Nonlinear Optimization
 
@@ -11,7 +11,7 @@
 [![Sponsorship](https://img.shields.io/badge/Supported_By-OFAJ_%2F_DFJW-002395?style=flat-square)](https://www.ofaj.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-**An applied technical journal, code portfolio, and interactive suite created during the bilateral exchange program between OTH Regensburg (Germany) and ISIMA / Clermont Auvergne INP (France).**
+**An applied technical and interactive journal, created during the bilateral exchange program between OTH Regensburg (Germany) and ISIMA / Clermont Auvergne INP (France).**
 
 [Overview & Program Context](#overview--program-context) • [Portfolio Disclaimer & Contributions](#portfolio-disclaimer--my-contributions) • [Part 1: OTH Regensburg (Germany)](#part-1-oth-regensburg-germany--applied-optimization--solvers) • [Part 2: ISIMA (France)](#part-2-isima-france--telecom-network-challenge--julia) • [Repository Structure](#repository-structure) • [Quick Start Guide](#quick-start-guide) • [Key Takeaways](#key-takeaways--learning-journal) • [Authors & Credits](#authors-and-credits)
 
@@ -26,7 +26,7 @@
 
 ---
 
-## Overview & Program Context
+## Overview and Program Context
 
 The **ISIMA-OTH Summer School** is an international academic partnership between **ISIMA** (Clermont-Auvergne INP, France) and **OTH Regensburg** (Ostbayerische Technische Hochschule Regensburg, Bavaria, Germany), originally established by **Prof. Dr. Markus Westner** and **Prof. Viet Hung Nguyen**.
 
@@ -54,11 +54,11 @@ flowchart LR
 
 ---
 
-## Portfolio Disclaimer & My Contributions
+## Portfolio Disclaimer and My Contributions
 
 > [!NOTE]  
-> **A Note on Academic Transparency & Attribution**  
-> This repository is designed as a **technical journal and portfolio showcase** of my work and learnings during the bilateral exchange program. I did not design the theoretical problem statements or initial starter templates from scratch. The course architecture, problem formulations, and benchmark datasets were provided by the academic directors (**Prof. Dr. Markus Westner** and **Prof. Viet Hung Nguyen**) and industry partners (**Orange & ROADEF**).  
+> 
+> This repository is designed as a **technical journal and portfolio showcase** of my work and learnings during the bilateral exchange program. I did not design the theoretical problem statements or initial starter templates from scratch. The course architecture, problem formulations, and benchmark datasets were provided by the academic faculty (**Prof. Dr. Stefan Körkel**, **Prof. Dr. Ralf Lenz**, **Prof. Dr. Markus Westner**, and **Prof. Viet Hung Nguyen**) and industry partners (**Orange & ROADEF**).  
 >
 > My individual and team contributions consisted of:
 > - Implementing mathematical constraints, objective functions, and solver bindings in **Python (PySCIPOpt)** and **Julia (JuMP)**.
@@ -75,28 +75,33 @@ flowchart LR
 
 Implemented in Python using **Streamlit** and **PySCIPOpt** (the Python interface to the SCIP Optimization Suite, one of the fastest open-source MIP solvers available).
 
-<div align="center">
-  <img src="images/hospitals_berlin.png" alt="Berlin Hospitals FLP" width="280"/>
-</div>
-
-- **🏥 Hospital Catering — Capacitated Facility Location Problem (FLP)**:
+- **Hospital Catering, Capacitated Facility Location Problem (FLP)**:
   - **Context**: Optimizing meal prep kitchen locations and delivery logistics for 70+ hospitals across the city of Berlin.
   - **Formulation**: Balances fixed opening costs for kitchen centers against variable kilometer-based transport logistics costs:
     $$\min \sum_{j \in J} f_j y_j + \sum_{i \in I} \sum_{j \in J} c_{ij} x_{ij}$$
     subject to capacity limits on kitchen facilities and complete demand coverage for all hospitals.
   - **Visualization**: Interactive Leaflet/Folium geospatial map integrating real Berlin road network Shapefiles.
 
-- **🚗 EV Charging Station Placement — Set Covering Problem**:
+- **EV Charging Station Placement — Set Covering Problem**:
   - **Context**: Locating electric vehicle charging points across urban sectors based on residential density while guaranteeing maximum walking distance thresholds.
   - **Formulation**: Classic Set Covering Problem (SCP) with binary decision variables $y_j \in \{0, 1\}$ ensuring each building block is covered by at least one charging station radius.
+  <p align="center">
+    <img src="images/ev_charging_demo.gif" alt="EV Charging Station Placement Demo" width="680"/>
+  </p>
 
-- **🎨 Map & Graph Coloring**:
+- **Map & Graph Coloring**:
   - **Context**: Solving vertex-coloring problems for map boundaries and resource scheduling without adjacent color clashes.
   - **Formulation**: Min-color MILP formulation using indicator variables $w_c$ and assignment variables $x_{v,c}$ with edge non-interference constraints:
     $$x_{u,c} + x_{v,c} \le w_c \quad \forall (u, v) \in E, \forall c \in C$$
+  <p align="center">
+    <img src="images/graph_coloring_demo.gif" alt="Graph Coloring Demo" width="680"/>
+  </p>
 
-- **🧩 Sudoku Solver**:
+- **Sudoku Solver**:
   - Exact formulation of standard 9×9 grids as an Integer Linear Program with row, column, and 3×3 subgrid all-different constraints, solved in milliseconds.
+  <p align="center">
+    <img src="images/sudoku_solver_demo.gif" alt="Sudoku Solver Demo" width="680"/>
+  </p>
 
 ---
 
@@ -240,7 +245,7 @@ julia -e 'using Pkg; Pkg.add("Pluto"); using Pluto; Pluto.run()'
 
 ---
 
-## Key Takeaways & Learning Journal
+## Key Takeaways and Learning Journal
 
 ### 1. Operations Research in Practice
 - **MIP Solvers Matter**: SCIP and HiGHS demonstrate that choosing the proper solver and formulation drastically impacts branch-and-bound pruning rates.
@@ -261,8 +266,10 @@ julia -e 'using Pkg; Pkg.add("Pluto"); using Pluto; Pluto.run()'
   - LinkedIn: [Natéo Gadaix](https://www.linkedin.com/in/nat%C3%A9o-gadaix-7507a0383/)  
   - Portfolio: [perso.isima.fr/~nagadaix](https://perso.isima.fr/~nagadaix/)
 - **Academic Directors & Lecturers**:
-  - **Prof. Dr. Markus Westner** — Ostbayerische Technische Hochschule (OTH) Regensburg, Germany
-  - **Prof. Viet Hung Nguyen** — ISIMA / LIMOS (CNRS), Université Clermont Auvergne, France
+  - **Prof. Dr. Stefan Körkel** — Ostbayerische Technische Hochschule (OTH) Regensburg, Faculty of Computer Science and Mathematics (Applied Mathematics, Non-Linear Optimization & Mixed-Integer Programming)
+  - **Prof. Dr. Ralf Lenz** — Ostbayerische Technische Hochschule (OTH) Regensburg, Faculty of Computer Science and Mathematics (Mathematical Optimization & Operations Research)
+  - **Prof. Dr. Markus Westner** — Ostbayerische Technische Hochschule (OTH) Regensburg (Program Director & General Supervision)
+  - **Prof. Viet Hung Nguyen** — ISIMA / LIMOS (CNRS), Université Clermont Auvergne, France (Program Director & Mathematical Programming with Julia)
 - **Institutions & Sponsors**:
   - **[OTH Regensburg](https://www.oth-regensburg.de/)** & **[ISIMA](https://www.isima.fr/)**
   - **[OFAJ / DFJW](https://www.ofaj.org/)** (Office Franco-Allemand pour la Jeunesse / Deutsch-Französisches Jugendwerk)
